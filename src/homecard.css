@@ -1,0 +1,38 @@
+.homecard{
+    place-items: center;
+    display: column;
+    margin-top: 20px;
+}
+
+.home-info>img{
+    margin-left: 250px;
+    max-width: 650px;
+}
+
+.homecard-bottom>p{
+    color: black;
+}
+
+.homebottomP{
+    text-align: center;
+    margin-left: 20vw;
+    margin-right: 25vw;
+}
+
+@media screen and (max-width:500px) {
+    .homecard{
+        max-height: 100%;
+        max-width: 100%;
+    }    
+}
+
+@media screen and  (max-width:500px) {
+    .home-info>img{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        /* max-height: 100%; */
+        width: 50%;
+        /* text-align: center; */
+    }    
+}

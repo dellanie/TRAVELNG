@@ -1,0 +1,16 @@
+.body{
+    margin-top: 1px;
+    min-height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('/src/img/nature.jpg');
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.home-middle>h2{
+    margin-top: 50vh;
+    text-align: center;
+}
+
+.body-intro>h1, p{
+    color: white;
+    text-align: center;
+}
