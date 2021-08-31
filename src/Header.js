@@ -23,6 +23,7 @@ function Header() {
                 </Button>
                 <Button onClick={() => history.push("/explore")} className="buttonheader">
                     Explore
+                    
                 </Button>
                 <Button className="buttonheader">
                     About Us
